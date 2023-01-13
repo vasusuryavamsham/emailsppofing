@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<?php
+$to = "vasu57907@gmail.com";
+$subject = "you are hacked...!";
+$txt = "this is email spoofing";
+$header = "From: cybersecurity.com";
+mail($to,$subject,$txt,$header);
+echo "message sent";
+?>
+</body>
+</html>
